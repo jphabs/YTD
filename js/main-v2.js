@@ -9094,3 +9094,25 @@ const currentYear = new Date().getFullYear();
 document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('year').textContent = currentYear; // Display the current year
 });
+
+
+// SEARCH BAR
+
+function searchBlogs() {
+    var input, filter, entries, title, i, txtValue;
+    input = document.getElementById('searchInput');
+    filter = input.value.toUpperCase();
+    entries = document.getElementsByClassName('blog-entry');
+    
+    for (i = 0; i < entries.length; i++) {
+        title = entries[i].getElementsByTagName("h3")[0];
+        if (title) {
+            txtValue = title.textContent || title.innerText;
+            if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                entries[i].style.display = "";
+            } else {
+                entries[i].style.display = "none";
+            }
+        }
+    }
+}

@@ -1943,3 +1943,49 @@ a.video-thumbnail span:hover {
         padding: 5px 3px;
     }
 }
+
+
+/* blog-style.css */
+
+/* Flexbox for aligning image with text */
+.blog-entry .row {
+    display: flex;
+    align-items: stretch; /* Make sure all items have the same height */
+}
+
+/* Set the image to fit its container while keeping the aspect ratio */
+.blog-entry .col-md-4 {
+    flex: 0 0 25%; /* Image takes up 25% of the row */
+    display: flex;
+    align-items: center; /* Vertically center the image */
+    justify-content: center; /* Horizontally center the image */
+}
+
+.blog-entry img {
+    max-width: 100%; /* Ensure image is responsive */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Make the image cover the area */
+}
+
+/* Ensure the text section (title and description) takes up the remaining space */
+.blog-entry .col-md-8 {
+    flex: 0 0 75%; /* Title and description take up 75% of the row */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Space out title and description */
+}
+
+/* Styling for the title */
+.blog-entry h3 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Styling for the description */
+.blog-entry p {
+    margin: 0;
+    color: #555;
+    font-size: 1rem;
+    line-height: 1.5;
+}
