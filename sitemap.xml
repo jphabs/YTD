@@ -1,40 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/</loc>
-  </url>
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/pages/tos</loc>
-  </url>
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/pages/about</loc>
-  </url>
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/pages/faq</loc>
-  </url>
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/pages/contact</loc>
-  </url>
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/pages/privacy-policy</loc>
-  </url>
-  
-  <!-- Adding download-youtube-thumbnails-for-free.html -->
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/download-youtube-thumbnails-for-free.html</loc>
-  </url>
-  
-  <!-- Adding thank-you.html -->
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/thank-you.html</loc>
-  </url>
-  
-  <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/youtube-thumbnail-downloader-pros-and-cons.html</loc>
-</url>
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
 
 <url>
-    <loc>https://youtubethumbnaildownloader.pages.dev/free-and-easy-way-to-save-youtube-thumbnails-for-your-projects.html</loc>
+  <loc>https://youtubethumbnaildownloader.pages.dev/</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
-  
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/pages/tos</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/pages/about</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/pages/blogs</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/pages/faq</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/pages/contact</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/pages/privacy-policy</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/articles/download-youtube-thumbnails-for-free</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/articles/free-and-easy-way-to-save-youtube-thumbnails-for-your-projects</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://youtubethumbnaildownloader.pages.dev/articles/youtube-thumbnail-downloader-pros-and-cons</loc>
+  <lastmod>2024-11-20T16:08:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
 </urlset>
