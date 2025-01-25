@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+        <title>QR Code Generator - Generate Your QR Code Instantly</title>
+        <meta
+            name="description"
+            content="Create QR Codes instantly for your text or URLs with our user-friendly QR Code Generator. Fast, easy, and completely free."
+        />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="robots" content="index, follow" />
+        <link rel="icon" href="../images/logo.png" />
+        <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" type="text/css" href="../css/style.css" />
+        <script type="text/javascript" charset="utf-8">
+            var base_url = '../index.html';
+            var page_hl = 'en';
+        </script>
+    </head>
+
+    <body id="bootstrap-themes" class="swag-line">
+        <div class="container-overflow-wrap">
+            <nav class="navbar navbar-tall navbar-full" role="navigation">
+                <div class="container">
+                    <div class="navbar-header">
+                        <div class="navbar-brand logo-cont">
+                            <a class="" href="../index.html" style="padding: 0">
+                                <img height="46px" width="46px" src="../images/logo.png" alt="Logo" style="height: 46px" />
+                                <span id="logo-name"> YTD </span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collapse navbar-collapse p-l-0 p-r-0" id="global-nav">
+                        <div class="navbar-right m-r-0">
+
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container">
+            <div class="panel panel-default m-b-0">
+                <div class="panel-body">
+                    <div class="div-form">
+                        <div class="hero hero-homepage">
+                            <h1 class="hero-header">QR Code Generator</h1>
+                            <form
+                                class="form-inline form-search"
+                                id="qr-form"
+                                name="qr-form"
+                                onsubmit="generateQRCode(); return false;"
+                            >
+                                <input
+                                    class="form-control input-lg"
+                                    id="qr-input"
+                                    name="qr-input"
+                                    type="text"
+                                    placeholder="Enter text or URL to generate QR Code..."
+                                    required
+                                />
+                                <button
+                                    title="Generate"
+                                    type="submit"
+                                    class="btn btn-lg"
+                                >
+                                    <span class="hidden-xs">Generate </span>
+                                    <span class="glyphicon glyphicon-qrcode"></span>
+                                </button>
+                            </form>
+                            <p class="small">Quickly create a QR Code for text or URLs with our simple tool.</p>
+
+                            <div id="qr-preview" style="text-align: center; margin-top: 20px; display: none;">
+                                <h4>QR Code Preview:</h4>
+                                <canvas id="qr-canvas"></canvas>
+                                <br />
+                                <a
+                                    id="download-qr"
+                                    href="#"
+                                    download="qrcode.png"
+                                    class="btn btn-success"
+                                    style="margin-top: 20px;"
+                                >
+                                    Download QR Code
+                                </a>
+                            </div>
+                            
+                            <br>
+                            	</br>
+                            <h2>How to Use the QR Code Generator</h2>
+<p>The QR Code Generator allows you to create custom QR codes instantly. Whether you need a QR code for a URL, text, or other types of data, this tool simplifies the process. Just enter the text or URL you want to convert into a QR code, and hit the generate button. Our tool will instantly provide a downloadable QR code image that you can use for your projects, business, or personal use.</p>
+
+<h2>Why Use a QR Code?</h2>
+<p>QR codes are an efficient way to share information quickly and easily. They can be scanned by smartphones, making them perfect for business cards, websites, event tickets, product packaging, and more. QR codes allow users to access digital information without having to type in a long URL or text, offering a seamless experience for sharing content or directing users to specific websites.</p>
+
+<h2>Features of the QR Code Generator</h2>
+<p>Our QR Code Generator tool comes with a range of features to help you create QR codes for various purposes. You can generate QR codes for websites, email addresses, phone numbers, or even Wi-Fi login credentials. The tool allows you to customize the QR code's size and offers a preview before downloading the code, ensuring it meets your requirements before use.</p>
+
+<h2>Benefits of Using QR Codes</h2>
+<p>QR codes offer numerous benefits, including the ability to store large amounts of data in a small, scannable format. They are highly efficient and can be used in many ways across different industries. Whether you're a business owner looking to increase customer engagement or simply need a quick way to share contact information, QR codes are a valuable tool for both personal and professional use.</p>
+
+<h2>How to Create a Custom QR Code</h2>
+<p>To create a custom QR code, simply input the desired data into the QR Code Generator form. You can choose to generate a QR code for a website URL, contact information, Wi-Fi network, or even a custom message. After generating the QR code, you can download it as a PNG image and use it for printing, sharing, or digital displays.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<footer class="footer clearfix footer-borderless">
+    <div class="container">
+        <div class="row p-l-md p-r-md">
+            <div class="col-md-4">
+                <p>Follow us:</p>
+                <p><a class="footer-list-link" href="https://www.facebook.com/profile.php?id=61568594661386&mibextid=ZbWKwL">Facebook</a></p>
+                <p><a class="footer-list-link" href="https://x.com/YTD1946216?s=09">X</a></p>
+                <p><a class="footer-list-link" href="https://www.instagram.com/jphabsytd/profilecard/?igsh=MXM3ZTg4Mm10ZjRxdw==">Instagram</a></p>
+            </div>
+            <div class="col-md-4">
+                <p><a class="footer-list-link" href="about.html">About</a></p>
+                <p><a class="footer-list-link" href="blogs.html">Blogs</a></p>
+                <p><a class="footer-list-link" href="faq.html">FAQ</a></p>
+                <p><a class="footer-list-link" href="contact.html">Contact</a></p>
+                <p><a class="footer-list-link" href="tos.html">Terms of Service</a></p>
+                <p><a class="footer-list-link" href="privacy-policy.html">Privacy Policy</a></p>
+            </div>
+        </div>
+    </div>
+    <p>&copy; <span id="year"></span> YTD | Jphabs Khalifa</p>
+</footer>
+
+<script type="text/javascript" charset="utf-8" src="../js/main-v2.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+<script>
+    function generateQRCode() {
+        const input = document.getElementById("qr-input").value;
+        const canvas = document.getElementById("qr-canvas");
+        const downloadLink = document.getElementById("download-qr");
+
+        if (!input) {
+            alert("Please enter a valid text or URL.");
+            return;
+        }
+
+        QRCode.toCanvas(canvas, input, { width: 200 }, function (error) {
+            if (error) {
+                console.error(error);
+                alert("Failed to generate QR Code. Try again.");
+                return;
+            }
+
+            document.getElementById("qr-preview").style.display = "block";
+            const dataURL = canvas.toDataURL("image/png");
+            downloadLink.href = dataURL;
+        });
+    }
+</script>
+    </body>
+</html>
